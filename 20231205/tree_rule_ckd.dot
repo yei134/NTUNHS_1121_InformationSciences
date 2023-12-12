@@ -1,16 +1,16 @@
 digraph Tree {
 node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
 edge [fontname="helvetica"] ;
-0 [label=<node &#35;0<br/>Hemoglobin (gms) &le; 12.95<br/>entropy = 0.977<br/>samples = 156<br/>value = [64, 92]<br/>class = 1>, fillcolor="#c3e1f7"] ;
-1 [label=<node &#35;1<br/>entropy = 0.0<br/>samples = 81<br/>value = [0, 81]<br/>class = 1>, fillcolor="#399de5"] ;
+0 [label=<node &#35;0<br/>Hemoglobin (gms) &le; 12.95<br/>entropy = 0.963<br/>samples = 313<br/>value = [121, 192]<br/>class = 1>, fillcolor="#b6dbf5"] ;
+1 [label=<node &#35;1<br/>entropy = 0.0<br/>samples = 170<br/>value = [0, 170]<br/>class = 1>, fillcolor="#399de5"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label=<node &#35;2<br/>Specific Gravity &le; 1.017<br/>entropy = 0.601<br/>samples = 75<br/>value = [64, 11]<br/>class = 0>, fillcolor="#e9975b"] ;
+2 [label=<node &#35;2<br/>Specific Gravity &le; 1.017<br/>entropy = 0.619<br/>samples = 143<br/>value = [121, 22]<br/>class = 0>, fillcolor="#ea985d"] ;
 0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-3 [label=<node &#35;3<br/>entropy = 0.0<br/>samples = 9<br/>value = [0, 9]<br/>class = 1>, fillcolor="#399de5"] ;
+3 [label=<node &#35;3<br/>entropy = 0.0<br/>samples = 20<br/>value = [0, 20]<br/>class = 1>, fillcolor="#399de5"] ;
 2 -> 3 ;
-4 [label=<node &#35;4<br/>Albumin &le; 0.5<br/>entropy = 0.196<br/>samples = 66<br/>value = [64, 2]<br/>class = 0>, fillcolor="#e6853f"] ;
+4 [label=<node &#35;4<br/>Hypertension: yes &le; 0.5<br/>entropy = 0.12<br/>samples = 123<br/>value = [121, 2]<br/>class = 0>, fillcolor="#e5833c"] ;
 2 -> 4 ;
-5 [label=<node &#35;5<br/>entropy = 0.0<br/>samples = 64<br/>value = [64, 0]<br/>class = 0>, fillcolor="#e58139"] ;
+5 [label=<node &#35;5<br/>entropy = 0.0<br/>samples = 121<br/>value = [121, 0]<br/>class = 0>, fillcolor="#e58139"] ;
 4 -> 5 ;
 6 [label=<node &#35;6<br/>entropy = 0.0<br/>samples = 2<br/>value = [0, 2]<br/>class = 1>, fillcolor="#399de5"] ;
 4 -> 6 ;
