@@ -1,0 +1,196 @@
+Number of Doctors Visited: The total count of different doctors the patient has seen = {
+1: 0-1 doctors
+2: 2-3 doctors
+3: 4 or more doctors
+}
+
+Age: The patient's age group = {
+1: 50-64
+2: 65-80
+}
+
+Phyiscal Health: A self-assessment of the patient's physical well-being = {
+-1: Refused
+1: Excellent
+2: Very Good
+3: Good
+4: Fair
+5: Poor
+}
+
+Mental Health: A self-evaluation of the patient's mental or psychological health = {
+-1: Refused
+1: Excellent
+2: Very Good
+3: Good
+4: Fair
+5: Poor
+}
+
+Dental Health: A self-assessment of the patient's oral or dental health= {
+-1: Refused
+1: Excellent
+2: Very Good
+3: Good
+4: Fair
+5: Poor
+}
+
+Employment: The patient's employment status or work-related information = {
+-1: Refused 6
+1: Working full-time
+2: Working part-time
+3: Retired
+4: Not working at this time
+}
+
+Stress Keeps Patient from Sleeping: Whether stress affects the patient's ability to sleep = {
+0: No
+1: Yes
+}
+
+Medication Keeps Patient from Sleeping: Whether medication impacts the patient's sleep = {
+0: No
+1: Yes
+}
+
+Pain Keeps Patient from Sleeping: Whether physical pain disturbs the patient's sleep = {
+0: No
+1: Yes
+}
+
+Bathroom Needs Keeps Patient from Sleeping: Whether the need to use the bathroom affects the patient's sleep = {
+0: No
+1: Yes
+}
+
+Unknown Keeps Patient from Sleeping: Unidentified factors affecting the patient's sleep = {
+0: No
+1: Yes
+}
+
+Trouble Sleeping: General issues or difficulties the patient faces with sleeping = {
+0: No
+1: Yes
+}
+
+Prescription Sleep Medication: Information about any sleep medication prescribed to the patient = {
+-1: Refused
+1: Use regularly
+2: Use occasionally
+3: Do not use
+}
+
+Race: The patient's racial or ethnic background = {
+-2: Not asked
+-1: REFUSED
+1: White, Non-Hispanic
+2: Black, Non-Hispanic
+3: Other, Non-Hispanic
+4: Hispanic
+5: 2+ Races, Non-Hispanic
+}
+Gender: The gender identity of the patient = {
+-2: Not asked
+-1: REFUSED
+1: Male
+2: Female
+}
+就診醫師數量：病患就診的不同醫師總數 = {
+1：0-1醫生
+2：2-3名醫生
+3：4名或更多醫生
+}
+
+年齡：患者的年齡組 = {
+1：50-64
+2：65-80
+}
+
+身體健康：病人身體健康的自我評估 = {
+-1：拒絕
+1：非常好
+2：非常好
+3：好
+4：公平
+5：差
+}
+
+心理健康：病人精神或心理健康的自我評估 = {
+-1：拒絕
+1：非常好
+2：非常好
+3：好
+4：公平
+5：差
+}
+
+牙齒健康：病人口腔或牙齒健康的自我評估= {
+-1：拒絕
+1：非常好
+2：非常好
+3：好
+4：公平
+5：差
+}
+
+就業：病患的就業狀況或工作相關資訊 = {
+-1：拒絕 6
+1：全職工作
+2：兼職工作
+3：退休
+4：此時不工作
+}
+
+壓力使患者無法入睡：壓力是否會影響患者的睡眠能力 = {
+0：否
+1：是
+}
+
+藥物使患者無法入睡：藥物是否影響患者的睡眠 = {
+0：否
+1：是
+}
+
+疼痛使患者無法入睡：身體疼痛是否會幹擾患者的睡眠 = {
+0：否
+1：是
+}
+
+如廁需求導致病人無法入睡：如廁需求是否會影響病人睡眠 = {
+0：否
+1：是
+}
+
+未知因素導致患者無法入睡：影響患者睡眠的未知因素 = {
+0：否
+1：是
+}
+
+睡眠問題：病人在睡眠方面面臨的一般問題或困難 = {
+0：否
+1：是
+}
+
+處方睡眠藥物：有關為患者開出的任何睡眠藥物的資訊 = {
+-1：拒絕
+1：常使用
+2：偶爾使用
+3：不要使用
+}
+
+種族：病人的種族或民族背景 = {
+-2：未詢問
+-1：拒絕
+1：白人、非西班牙裔
+2：黑人、非西班牙裔
+3：其他非西班牙裔
+4：西班牙裔
+5：2 場以上種族，非西班牙裔
+}
+性別：患者的性別認同 = {
+-2：未詢問
+-1：拒絕
+1：男
+2：女
+}
